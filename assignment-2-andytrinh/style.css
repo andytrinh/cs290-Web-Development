@@ -1,0 +1,214 @@
+/*
+ * You should write your CSS in this file.
+ */
+
+body { /*keep*/
+  font-family: Roboto;
+}
+
+header { /*keep*/
+  display: flex;
+  background-color: black;
+  height: 180px;
+}
+
+
+.site-title { /*keep*/
+  font-size: 75px;
+}
+
+.filter-container {
+  position: relative;
+  bottom: -10px;
+  white-space: nowrap;
+}
+
+.header-image-container > img {
+  position: relative;
+  bottom: -20px;
+}
+
+.site-title > a { /*keep*/
+  font-family: Roboto Slab;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: -20px;
+}
+
+.content {
+  display:flex;
+  position: relative;
+  left: 20px;
+
+}
+
+
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-input-label {
+  color: black;
+}
+
+
+.result {
+  border: 1px solid lightgrey;
+  margin: 10px;
+  padding: 40px;
+  height: 250px;
+  width: 250px;
+}
+
+.result-info-container > a {
+  text-decoration: none;
+  color: orange;
+  position: relative;
+  right: 28px;
+
+}
+.result-info-container > a:hover {
+  text-decoration: underline;
+
+}
+
+
+.result-price {
+  border: 1px solid lightgrey;
+  background-color: rgb(240,240,240);
+  position: relative;
+  right: 25px;
+}
+
+.result-city {
+  position: relative;
+  right: 20px;
+}
+
+.result-image-container > img {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  bottom: 30px;
+  left: -27px;
+}
+
+.filter-container {
+  height: 400px;
+  width: 500px;
+}
+
+label[for=filter-text] {
+  position: relative;
+  bottom: 20px;
+}
+
+label[for=filter-city] {
+  position: relative;
+  bottom: -20px;
+}
+
+h2{
+  position: relative;
+  bottom: 20px;
+}
+
+#filter-city {
+  position: relative;
+  bottom: -20px;
+  width: 175px;
+  height: 15px;
+}
+
+#filter-text  {
+  height: 15px;
+  width: 165px;
+  position: relative;
+  bottom: 20px;
+}
+
+#filter-min-price {
+  height: 15px;
+  width: 70px;
+  position: relative;
+  right: -5px;
+}
+
+
+#filter-max-price {
+  height: 15px;
+  width: 70px;
+  position: relative;
+  right: -10px
+}
+
+.filter-input-label > #filter-text{
+  display: flex;
+}
+
+.action-button {
+  text-align: center;
+}
+
+#filter-update-button {
+  color: white;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Roboto;
+  position: relative;
+  bottom: -60px;
+  width: 240px;
+
+
+}
+
+#filter-update-button:hover {
+   background-color: #FFCC99;
+   color: black;
+}
+
+#filter-condition {
+  position: relative;
+  bottom: -40px;
+}
+
+.content > .filter-container {/* keep */
+  padding: 20px;
+  background-color: rgb(240,240,240);
+  position: relative;
+  right: 10px;
+}
+
+#sell-something-button {
+
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid rgb(255,140,0);
+  background-color: rgb(255,140,0);
+  color: white;
+  font-size: 30px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  position: fixed;
+  right: 65px;
+  bottom: 30px;
+}
+
+
+
+#sell-something-button:hover, #sell-something-button:focus {
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+
+}
